@@ -1,6 +1,6 @@
 // Service worker da carteirinha: guarda o app no celular para abrir mesmo sem internet.
 // O build troca a versão a cada mudança, e a versão antiga é apagada ao ativar.
-const CACHE = 'carteirinha-06d6365622';
+const CACHE = 'carteirinha-e1a7691287';
 const ARQUIVOS = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
